@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "Appointment",
+      "patterns": [
+        "Yes, set up an appointment",
+        "Thanks, set up an appointment, please",
+        "Yes, please"
+      ],
+      "responses": [
+        "You are good, Your appointment is scheduled for May 30 at 10:00 AM"
+      ]
+    },
+    {
+      "tag": "Advising",
+      "patterns": [
+        "Who is available for advising check-in?",
+        "Who can help me advising?"
+      ],
+      "responses": [
+        "Megan Stowe is avaiable for advising check-in, would you like me to set up an appointment for you?",
+        "Dr. Lucien is there to help you, would you like me to set up an appointment for you?"
+      ]
+    },
+    {
+      "tag": "function",
+      "patterns": [
+        "What can I do there?",
+        "Who are you?",
+        "Can you help me?"
+      ],
+      "responses": [
+        "I am your virtual assistant there. I can help you with advising",
+        "I can help you with advising check-in"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Appointment",
+      "patterns": [
+        "Yes, set up an appointment",
+        "Thanks, set up an appointment, please",
+        "Yes, please"
+      ],
+      "responses": [
+        "You are good, Your appointment is scheduled for May 30 at 10:00 AM"
+      ]
+    },
+    {
+      "tag": "Advising",
+      "patterns": [
+        "Who is available for advising check-in?",
+        "Who can help me advising?"
+      ],
+      "responses": [
+        "Megan Stowe is avaiable for advising check-in, would you like me to set up an appointment for you?",
+        "Dr. Lucien is there to help you, would you like me to set up an appointment for you?"
+      ]
+    },
+    {
+      "tag": "function",
+      "patterns": [
+        "What can I do there?",
+        "Who are you?",
+        "Can you help me?"
+      ],
+      "responses": [
+        "I am your virtual assistant there. I can help you with advising",
+        "I can help you with advising check-in"
+      ]
+    }
+  ]
+}
